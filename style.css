@@ -39,10 +39,16 @@ button {
   margin: 30px 0px 10px 0px;
 }
 
-.header {
-  padding: 80px;
+.hero {
+  text-align: center;
+  padding: 90px;
   background-color: var(--secondary-color);
   margin: 0px;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-button {
@@ -57,13 +63,16 @@ button {
 }
 
 .project-displays {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 20px;
   padding: 20px 15px;
   margin: 20px 10px;
   max-width: 600px;
   background-color: var(--secondary-color);
   box-shadow: var(--primary-shadow);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
 }
