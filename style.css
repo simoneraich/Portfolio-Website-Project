@@ -1,10 +1,12 @@
 :root {
   --primary-shadow: 5px 5px 20px #2829412b;
   --primary-color: #282941;
-  --secondary-color: #dbdbdf;
+  --secondary-color: white;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--primary-color);
 }
 h1,
 h2 {
@@ -14,17 +16,15 @@ h2 {
 h2 {
   font-size: 40px;
   padding: 0 0 20 0;
-  font-family: "Courier New", Courier, monospace;
 }
 
 h1 {
   font-size: 25px;
 }
 h3 {
-  font-size: 24px;
+  font-size: 40px;
   text-align: left;
   margin: 10px 0px 0px 0px;
-  font-family: "Courier New", Courier, monospace;
 }
 
 img {
@@ -37,6 +37,7 @@ p {
 
 button {
   margin: 30px 0px 10px 0px;
+  box-shadow: var(--primary-shadow);
 }
 
 .hero {
@@ -46,7 +47,7 @@ button {
   margin: 0px;
 }
 .container {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -55,24 +56,31 @@ button {
   padding: 15px 30px;
   margin: 40px 0px;
   display: inline-block;
+  box-shadow: var(--primary-shadow);
 }
 
 .project-heading {
   font-size: 30px;
   margin: 30px;
+  color: white;
 }
 
 .project-displays {
   border-radius: 20px;
   padding: 20px 15px;
-  margin: 20px 10px;
-  max-width: 600px;
-  background-color: var(--secondary-color);
+  margin: 20px 50px;
+  background-color: white;
   box-shadow: var(--primary-shadow);
 }
 
 @media (max-width: 768px) {
   h1 {
     font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  img {
+    display: block;
   }
 }
