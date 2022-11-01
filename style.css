@@ -88,17 +88,31 @@ button {
   padding-bottom: 15px;
   font-family: "PT Serif", serif;
 }
-.about-header-h2 {
+.about-header-h2,
+.contact-aboutme {
   font-size: 30px;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
+}
+.about-header-h2 {
   padding-bottom: 45px;
 }
-
 .about-heading {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.contact-box {
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--primary-shadow);
+  border-radius: 20px;
+  padding: 30px;
+}
+.email-link {
+  color: black;
+}
+.footer-finisher {
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
