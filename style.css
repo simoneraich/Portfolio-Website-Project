@@ -76,6 +76,9 @@ button {
   background-color: var(--secondary-color);
   box-shadow: var(--primary-shadow);
 }
+.project-page {
+  background-color: #94aebb59;
+}
 .about {
   background-color: var(--secondary-color);
 }
