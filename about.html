@@ -18,7 +18,90 @@
     <link rel="stylesheet" href="/style.css" />
     <title>About Simone Raich</title>
   </head>
-  <body>
-    <h1>About Simone Raich</h1>
+  <body class="about">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #282941"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SIMONE RAICH</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Weather App</a></li>
+                <li><a class="dropdown-item" href="#">Loyalty App</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">E-Commerce Application</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Social Media Application</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <div class="row about-heading">
+          <div class="col-sm-6">
+            <h1 class="about-header-h1">About Simone Raich</h1>
+            <h2 class="about-header-h2">
+              Front-End Developer, UX-Designer <br />
+              & Yoga-Educator
+            </h2>
+            <p>
+              I'm a Front-End Developer with a love for UX-Design. I work with
+              Javascript & React
+            </p>
+            <a
+              href="#"
+              class="btn btn-dark contact-button"
+              style="background-color: #282941"
+              >My Projects</a
+            >
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="/media/portrait.jpg"
+              alt="portrait simone"
+              width="100%"
+              class="portrait"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
